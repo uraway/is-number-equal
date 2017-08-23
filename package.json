@@ -1,0 +1,21 @@
+{
+  "name": "is-number-equal",
+  "description": "Returns true if the values are same number.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/uraway/is-number-equal",
+  "author": "Masato Urai (@uraway_)",
+  "repository": "uraway/is-number-equal",
+  "bugs": {
+    "url": "https://github.com/uraway/is-number-equal/issues"
+  },
+  "license": "MIT",
+  "scripts": {
+     "test": "mocha"
+  },
+  "dependencies": {
+     "kind-of": "^5.0.2"
+  },
+  "devDependencies": {
+     "mocha": "^3.5.0"
+  }
+}
