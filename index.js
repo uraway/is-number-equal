@@ -1,8 +1,5 @@
 module.exports = function isNumberEqual(a, b) {
-  const numberA = Number(a);
-  const numberB = Number(b);
-
-  if (numberA === 'NaN' || numberB === 'NaN') return false;
-  if (numberA !== numberB) return false;
+  if (Number(a) === 'NaN' || Number(b) === 'NaN') return false;
+  if (Number(a) !== Number(b)) return false;
   return true;
 };
